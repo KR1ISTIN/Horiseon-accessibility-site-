@@ -1,0 +1,181 @@
+/*universal selector being applied to everything*/
+* {
+     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color for just the body of the site*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*creating text color, background color of header,font and padding*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*accessing h1 tag to create inline-block*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*giving the "seo" in Horiseon a different text color*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*creating the layout for the navbar with applying size/font also*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* will remove the bullets next to the list items*/
+header nav ul {
+    list-style-type: none;
+}
+
+/*accessing the unordered list items within the navbar within the header to create inline elements*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*color text / no decoration style to the text on links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*font size applied to all "p" elements*/
+p {
+    font-size: 16px;
+}
+
+/* applying the meeting picture under the navbar*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*applies to img to place image on left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* places img to the right in the block*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* being applied to all elements in the main tag*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* applies to the side column*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* the previous three classes were the same, can group into one, changed to class .benefit (see below) */
+.benefit {
+    margin-bottom: 32px;
+    color:#ffffff;
+}
+
+/* all h3 tags are the same, can combine into one css selector, see below only h3 */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*now targets all imgs within the benefit class */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* all three selectors are the same, can just use one selector for all three - changing class to assistance
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+.assistance {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* change to .assistance img to target only those images.*/
+.assistance img {
+    max-height: 200px;
+}
+
+
+/* only need one h2 selector targeting all class assistance*/
+ .assistance h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+ }
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* access the font size in only the footer h2 tag */
+footer h2 {
+    font-size: 20px;
+}
