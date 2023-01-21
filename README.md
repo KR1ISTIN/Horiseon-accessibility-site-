@@ -12,7 +12,7 @@ N/A
 
 This website can now be used normally with the proper addition of semantically accessible HTML elements.
 
-![example of semantic code](Develop/assets/images/Screen Shot 2023-01-20 at 8.40.24 PM.png)
+<img src="Screen Shot 2023-01-20 at 8.40.24 PM.png" style="height: 600px; width: 1000px"/>
 
 ## Credits
 
